@@ -1,0 +1,177 @@
+body{
+  font-family: poppins;
+}
+   
+header .carousel-inner .item{
+  height: 100vh;
+}
+header .carousel-inner .item img{
+  width: 100%;
+  opacity:0.5;
+}
+.carousel-caption{
+  padding-bottom: 250px;
+}
+.carousel-caption h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  color: black;
+  text-align:left;
+
+}
+.carousel-caption h3{
+  color: black;
+  text-align:left;
+
+}
+.carousel-caption button{
+  color: black;
+  background-color:green;
+  float:left;
+  
+
+}
+.carousel-control.right{
+  background-image: none;
+}
+.carousel-control.left{
+  background-image: none;
+}
+
+.topnav {
+  background-color: #fff;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid black;
+}
+
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 1px;
+  background-color: #333;
+  color:green;
+  margin: 4px 0;
+}
+.carousel-indicators .active {
+  opacity: 0.4;
+}
+.next_div p{
+top: 1179px;
+left: 209px;
+width: 768px;
+height: 71px;
+text-align: left;
+font: normal normal bold 40px Poppins;
+letter-spacing: 0px;
+color: #080808;
+opacity: 1;
+padding:100px;
+}
+
+.intro {
+  position: relative;
+  padding:70px;
+}
+.box2 {
+  width:120%;
+  height: auto;
+}
+.box1 {
+  position: absolute;
+  top: 150px; /* Adjust as needed */
+  left: 50px; /* Adjust as needed */
+  height:auto;
+  width:65%;
+
+}
+
+.pic{
+	width:90%;
+}
+.pad{
+	top: 1395px;
+	left: 874px;
+	width: 902px;
+	height: 469px;
+/* UI Properties */
+	text-align: left;
+	font-size:16px;
+	letter-spacing: 0px;
+	padding:100px 300px 0px 100px;
+	
+	
+	
+}
+
+.footer-support-text{
+	text-align: left;
+	font: normal normal normal 30px Segoe UI;
+	color: #000000;
+	opacity: 1;
+	font-size:13px;
+}
+.footer {
+height: auto;
+background-color: #fff;
+width: 100%;
+padding-top: 45px;
+align-items: center;
+justify-content: space-around;
+color: black;
+font-weight: 100;
+}
+.small-footer-header{
+	font-size:15px;
+}
+
+.footer-container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+padding-top: 20px;
+margin-top: 15px;
+background-color:#F4EEA9 ;
+}
+
+.column {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+float: left;
+width: 25%;
+padding: 10px;
+height: 300px;
+}
+
+.column-2,
+.column-3,
+.column-4 {
+width: 25%;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
